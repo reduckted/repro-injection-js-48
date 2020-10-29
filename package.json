@@ -1,0 +1,16 @@
+{
+    "name": "repro-injection-js-48",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "es5": "ts-node -P tsconfig.es5.json index.ts",
+        "es2015": "ts-node -P tsconfig.es2015.json index.ts"
+    },
+    "dependencies": {
+        "injection-js": "2.3.1",
+        "reflect-metadata": "0.1.13",
+        "ts-node": "9.0.0",
+        "typescript": "4.0.5"
+    }
+}
